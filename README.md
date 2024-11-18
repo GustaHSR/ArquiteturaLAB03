@@ -17,6 +17,6 @@
 
 ## Teste
 
-Inicializa a biblioteca e adiciona 3 livros nela. 
-Após isso registra um empréstimo do livro de código 1 e consulta a disponibilidade do livro de código 3, com os 2 códigos existindo para os livros. 
-Depois teste de registro de empréstimo e consulta de disponibilidade com códigos inexistentes
+Inicializa o Hotel e registra duas reservas nele.
+Após isso cancela a reserva de código 2 e consulta o status do quarto de código 1, mostrando reservado para o quarto de código 1 e cancelando a reserva do quarto de código 2.
+Depois vê o status do quarto 2 retornando "Disponível" e tenta cancelar e consultar um quarto com código inexistente
